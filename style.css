@@ -1,0 +1,551 @@
+body{
+	background-color: #f8f8f8;		
+}
+@font-face{
+	font-family: bpg_nino_mtavruli_bold;
+	src: url(fonts/bpg_nino_mtavruli_bold.ttf);
+}
+@font-face{
+	font-family: bpg_glaho;
+	src: url(fonts/bpg_glaho.ttf);
+}
+@font-face{
+	font-family: bpg_ingiri_bitmap_arial;
+	src: url(fonts/bpg_ingiri_bitmap_arial.ttf);
+}
+ #foogallery-gallery-204 a{ 
+ 	margin: 10px;
+ }
+
+.navbar{
+	margin-bottom: 0;
+}
+#carousel_background{
+	background-color: #F4F4F4;
+	margin-bottom: 0px;
+}
+#carousel_container{
+	margin-top: 0px;
+	padding: 0px;
+	border-right: 1px solid rgb(221, 221, 221);
+	border-left:1px solid rgb(221, 221, 221);
+}
+#carousel_img{
+}
+#footer{
+	background-color: #f8f8f8;
+	height: 50px;
+	border-top:2px solid #AC1D1C;
+}
+#middle{
+	margin-top: 0px;
+	background-color:#F4F4F4;
+}
+#middle_container{
+	margin-top: 0px;
+	padding: 0px;
+	background-color: white;
+	border-right: 1px solid rgb(221, 221, 221);
+	border-left:1px solid rgb(221, 221, 221);
+}
+#arrow_glyph{
+	color:#FF5C5A;
+	font-size: 19px;
+}
+#news_title{
+	font-size: 13pt;
+	font-family: bpg_nino_mtavruli_bold;
+	margin-top: 5px;
+	height: 31px;
+	margin-bottom: 3px;
+	border-bottom:2px solid #FF5C5A;
+	padding-left: 0px;
+}
+#news_image{
+	width: 70px;
+	height: 70px;
+}
+#news_text_wrapper{
+	border-left:1px solid rgb(221, 221, 221);
+	height: 70px;
+	margin-left: 5px;
+}
+#news_date_wrapper{
+	padding:0px;
+	font-family: bpg_nino_mtavruli_bold;
+	font-size: 10pt;
+}
+#news_title_wrapper{
+	margin-top: 0px;
+	font-family: bpg_nino_mtavruli_bold;
+	font-size: 11pt;
+	padding: 0px;
+}
+#news_cont_wrapper{
+	border-bottom:1px solid rgb(221, 221, 221);
+	margin-bottom: 4px;
+	padding-bottom: 2px;
+}
+#news_cont_wrapper:hover{
+	background-color: rgb(247, 247, 247);
+	border-bottom:1px solid #FF5C5A;
+
+}
+#page_title h3{
+	font-weight: 800;
+}
+#page_title{
+	border-bottom: 2px solid #FF5C5A;
+}
+#middle_left_header{
+	border-bottom:2px solid #FF5C5A;
+	height: 36px;
+	font-family: bpg_nino_mtavruli_bold;
+	font-size: 12pt;
+	padding-top: 5px;
+	padding-left: 0px;
+}
+#middle_content{
+	font-family: bpg_ingiri_bitmap_arial;
+	padding-left: 0px;
+	margin-top: 3px;
+}	
+#middle_content p{
+	font-family: bpg_glaho;
+	font-size: 14pt;
+	line-height: 27px;
+}
+#page_middle p{
+	font-family: bpg_glaho;
+	font-size: 14pt;
+	line-height: 27px;
+}
+#menu_container{
+	
+}
+#upcoming_title{
+	font-size: 13pt;
+	font-family: bpg_nino_mtavruli_bold;
+	margin-top: 5px;
+	height: 31px;
+	margin-bottom: 3px;
+	border-bottom:2px solid #FF5C5A;
+	padding-left: 0px;
+}
+#footer_container{
+	margin-top: 0px;
+	padding: 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+#footer_container ul{
+	
+}
+#middle_menu_wrapper{
+	margin-top: 34px;
+	padding-left:0px;
+	padding-top: 5px;
+	border-top:2px solid #FF5C5A;
+}
+#pic_wrapper{
+	padding-left: 0px;
+}
+#middle_pic{
+	height: 150px;
+	width: 212px;
+	border-radius: 5px;
+}
+#middle_pic_title{
+	font-size: 10pt;
+	font-family: bpg_nino_mtavruli_bold;
+	color:black;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 800;
+	margin-top: 5px;
+}
+#middle_pic_title a{
+	font-size: 10pt;
+	font-family: bpg_nino_mtavruli_bold;
+	color:black;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 800;
+	margin-top: 5px;
+}
+#middle_pic_title a:hover{
+	font-size: 10pt;
+	font-family: bpg_nino_mtavruli_bold;
+	color:#0066FF;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 800;
+	margin-top: 5px;
+}
+#menu_footer_wrapper{
+	margin-top: 0px;
+	padding-top: 14px;
+	display: inline;
+	text-decoration: none;
+}
+#menu_footer_wrapper ul{
+	display: inline;
+	text-decoration: none;
+	margin-top: 0px;
+	font-size: 10pt;
+	font-family: bpg_nino_mtavruli_bold;
+}
+#menu_footer_wrapper ul li{
+	display: inline;
+	text-decoration: none;
+	margin-right: 10px;
+	color:black;
+}
+#menu_footer_wrapper ul li a{
+	display: inline;
+	text-decoration: none;
+	margin-right: 10px;
+	color:black;
+}
+#menu_footer_wrapper ul li a:hover{
+	display: inline;
+	text-decoration: none;
+	margin-right: 10px;
+	color:#0066FF;
+}
+#footer_copyright_wrapper{
+	margin-top: 0px;
+	padding-top: 14px;
+	font-size: 10pt;
+	font-family: bpg_nino_mtavruli_bold;
+	color:black; 
+}
+#footer_copyright_wrapper a{
+	margin-top: 0px;
+	padding-top: 10px;
+	font-size: 10pt;
+	font-family: bpg_nino_mtavruli_bold;
+	color:black; 
+	text-decoration: none;
+}
+#footer_copyright_wrapper a:hover{
+	margin-top: 0px;
+	padding-top: 10px;
+	font-size: 10pt;
+	font-family: bpg_nino_mtavruli_bold;
+	color:#0066FF; 
+	text-decoration: none;
+}
+#nav_container{
+	padding: 0px;	
+
+}
+#nav_wrapper{
+	background-color: #f8f8f8;
+	border-bottom: 2px solid #AC1D1C;
+}
+#header_wrapper{
+	background-color: #F4F4F4;
+	border-bottom: 1px solid #AC1D1C;
+}
+#header_container{
+	padding: 0px;
+	background-color: #F4F4F4;
+}
+#logo{
+	margin-left: 30%;
+}
+#header_logo_wrapper{
+	padding: 0px;
+}
+#header_right_wrapper{
+	padding: 0px;
+}
+#header_menu_wrapper{
+	border-bottom:1px solid #AC1D1C;
+}
+#header_menu_list li a{
+	color:#35497C;
+	font-size: 10pt;
+	font-weight: 900;
+	font-family: bpg_nino_mtavruli_bold;
+}
+#test{
+	padding:0px;
+}
+#rights{
+}
+#upcoming_s{
+}
+#news_date_wrapper a{
+	color: black;
+}
+#news_title_wrapper a{
+	color: black;
+}
+#map_header{
+	margin-top: 5px;
+	font-family: bpg_nino_mtavruli_bold;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-left: 1px solid #AC1D1C;
+	border-bottom:1px solid #AC1D1C;
+	border-top:1px solid #AC1D1C;
+	border-right:1px solid #AC1D1C;
+	background-color: #AC1D1C;
+	color:white;
+
+}
+#maps{
+	padding: 0px;
+}
+#contact_post_title{
+	font-family: bpg_nino_mtavruli_bold;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	background-color:#AC1D1C;
+	padding-left: 10px;
+}
+#contact_post_title h3{
+	color:white;
+}
+#contact_post_content{
+	font-family: bpg_glaho;
+	color: black;
+	padding-left: 10px;
+	padding-top: 5px;
+	font-size: 12pt;
+
+}
+
+#inst_pic{
+
+}
+#horse_wr p{
+	text-align: left;
+	font-family: bpg_glaho;
+	font-size: 14pt;
+}
+#horse_th_tr{
+	margin-top: 10px;
+}
+#horse_wrapper{
+	border:1px solid gray;
+}
+#horse_pic_wrapper{
+	border-radius: 5px solid gray;
+}
+#horse_title_wrapper{
+	margin-top: 5px;
+}
+#horses_main_wrapper{
+	margin-top: 10px;
+}
+#horse_page_title_wrapper{
+	text-align: center;
+	padding: 10px;
+	font-family: bpg_nino_mtavruli_bold;
+	border-bottom: 2px solid #AC1D1C;
+	margin-bottom: 10px;
+	border-top: 2px solid #AC1D1C;
+}
+.caption{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+.caption h5{
+	font-family: bpg_nino_mtavruli_bold;
+	color:black;
+	font-size: 15pt;
+}
+.caption a{
+	color:black;
+}
+
+
+
+ /* iPad mini (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+	.carousel{
+		display: none;
+	}
+}
+
+/* iPad 2 (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.carousel{
+		display: none;
+	}
+}
+
+/* iPad 2 (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+	.carousel{
+		display: none;
+	}
+}
+
+/* iPad 2 (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+	.carousel{
+		display: none;
+	}
+}
+
+/* iPad 3 (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+	.carousel{
+		display: none;
+	}
+}
+
+/* iPad 3 (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+	.carousel{
+		display: none;
+	}
+}
+
+/* iPhone 4 (landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+	.carousel{
+		display: none;
+	}
+	#news_pic_wrap{
+		display: none;
+	}
+}
+
+/* iPhone 4 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+	.carousel{
+		display: none;
+	}
+	#news_pic_wrap{
+		display: none;
+	}
+}
+
+/* iPhone 5 (landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+	.carousel{
+		display: none;
+	}
+	#news_pic_wrap{
+		display: none;
+	}
+}
+
+/* iPhone 5 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+	.carousel{
+		display: none;
+	}
+	#news_pic_wrap{
+		display: none;
+	}
+}
+
+/* iPhone 6 (landscape) ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+	.carousel{
+		display: none;
+	}
+	#news_pic_wrap{
+		display: none;
+	}
+}
+
+/* iPhone 6 (portrait) ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+	.carousel{
+		display: none;
+	}
+	#news_pic_wrap{
+		display: none;
+	}
+}
+
+/* iPhone 6+ (landscape) ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+	.carousel{
+		display: none;
+	}
+	#news_pic_wrap{
+		display: none;
+	}
+}
+
+/* iPhone 6+ (portrait) ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+	.carousel{
+		display: none;
+	}
+	#news_pic_wrap{
+		display: none;
+	}
+}
+
+/* Samsung Galaxy S3 (landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+	.carousel{
+		display: none;
+	}
+	#news_pic_wrap{
+		display: none;
+	}
+}
+
+/* Samsung Galaxy S3 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+	.carousel{
+		display: none;
+	}
+	#news_pic_wrap{
+		display: none;
+	}
+}
+
+/* Samsung Galaxy S4 (landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+	.carousel{
+		display: none;
+	}
+	#news_pic_wrap{
+		display: none;
+	}	
+}
+
+/* Samsung Galaxy S4 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+	.carousel{
+		display: none;
+	}
+		#news_pic_wrap{
+		display: none;
+	}
+}
+
+/* Samsung Galaxy S5 (landscape) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+	.carousel{
+		display: none;
+	}
+	#news_pic_wrap{
+		display: none;
+	}
+}
+
+/* Samsung Galaxy S5 (portrait) ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+	.carousel{
+		display: none;
+	}
+	#news_pic_wrap{
+		display: none;
+	}
+}
